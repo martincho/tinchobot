@@ -1,6 +1,6 @@
 {
     "name": "tinchobot",
-    "version": "0.1",
+    "version": "0.1.0",
     "author": "Martin Pereyra<martinbfg10k@gmail.com>",
     "description": "a simple irc bot",
     "bin": {
