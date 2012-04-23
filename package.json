@@ -3,9 +3,6 @@
     "version": "0.1.0",
     "author": "Martin Pereyra<martinbfg10k@gmail.com>",
     "description": "a simple irc bot",
-    "bin": {
-        "tinchobot": "./tinchobot"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/martincho/tinchobot.git"
