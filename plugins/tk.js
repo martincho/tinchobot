@@ -49,14 +49,14 @@ function doQuery(ircSession, sayTo, param) {
 
     req = https.get(options, function(res) {
         var data = '';
-        console.log("statusCode: ", res.statusCode);
-        console.log("headers: ", res.headers);
+        //console.log("statusCode: ", res.statusCode);
+        //console.log("headers: ", res.headers);
         res.setEncoding('utf8');
         res.on('data', function(d) {
             data += d;
         });
         res.on('end', function() {
-            if(data) {
+            if(res.statusCode === 200 && data) {
                 var domjs = new DomJS();
                 domjs.parse(data, function(err, dom) {
                     answer = parseTrueKnowledgeResponseObject(dom);
