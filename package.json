@@ -1,0 +1,27 @@
+{
+    "name": "tinchobot",
+    "version": "0.1",
+    "author": "Martin Pereyra<martinbfg10k@gmail.com>",
+    "description": "a simple irc bot",
+    "bin": {
+        "tinchobot": "./tinchobot"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tinchobot.git"
+    },
+    "keywords": [
+        "cli",
+        "irc",
+        "bot",
+        "tinchobot"
+    ],
+    "dependencies" : {
+        "irc"    : ">=0.3.4",
+        "dom-js" : ">=0.0.7"
+    },
+    "license": "MIT",
+    "engine": {
+        "node": ">=0.6"
+    }
+}
